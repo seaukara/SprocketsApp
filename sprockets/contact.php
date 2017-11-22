@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <hr class="divider">
   <h2 class="text-center text-lg text-uppercase my-0">Contact<strong>Form</strong></h2>
 <hr class="divider">
@@ -143,7 +143,7 @@
 
 <?php 
 };
-include 'includes/footer.php';
+get_footer();
 
 function clean_post($key){
   if(isset($_POST[$key])){
